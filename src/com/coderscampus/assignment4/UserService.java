@@ -112,12 +112,6 @@ public class UserService {
 
     private void writeUser () {
 
-        /*Needs work. Ran into an issue before where I edited the text file myself, deleting a line
-        which caused the Array.sort to throw an error. Due to the nature on how the writer works
-        it deleted the files, and wasn't able to re-write
-        - Will look into this at a later date
-         */
-
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("users.txt"))) {
             Arrays.sort(database);
 
