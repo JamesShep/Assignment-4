@@ -47,5 +47,4 @@ public class User implements Comparable<User> {
         }
         return i;
     }
-
 }

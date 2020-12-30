@@ -145,7 +145,6 @@ public class UserService {
         return null;
     }
 
-
     private void displayChoiceMenu (User loggedInUser) {
         System.out.println("Welcome, " + loggedInUser.getName());
         System.out.println("----------------------");

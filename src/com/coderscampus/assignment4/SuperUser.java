@@ -8,5 +8,4 @@ public class SuperUser extends User {
         this.setName(name);
         this.setRole(role);
     }
-
 }
